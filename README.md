@@ -1,17 +1,19 @@
-# Projeto Arduíno para manipular 2 LEDs em sequência
+# Projeto Arduíno para manipular 2 LEDs com um sensor de lu
 
 ## Contextualização
 
-Neste experimento faremos com que o LED incorporado e dois LEDs pisquem juntos utilizando o pino digital 13 (pino digital incorporado LED_BUILTIN = 13). 
+Neste experimento faremos com que o LED incorporado e dois LEDs acendam separadamente de acordo com o sensor de presença. 
 
 ## Lista de componentes:
 
-- 1 – Arduíno UNO R3
-- 1 – Um cabo de conexão USB
-- 1 – Placa de prototipação (Protoboard)
-- 2 – LED
-- 2 – Resistor de 220 Ω ohms
-- 4 – Jumpers (macho-macho)
+– Arduíno UNO R3
+– Um cabo de conexão USB
+– Placa de prototipação (Protoboard)
+– LED
+– Resistor de 220 Ω ohms
+– Resistor de 10k Ω ohms
+– Fotoresistor (Sensor de luminosidade) LDR
+– Jumpers (macho-macho)
 
 ## Esquema do projeto
 
@@ -19,14 +21,13 @@ Neste experimento faremos com que o LED incorporado e dois LEDs pisquem juntos u
 
 ## Projeto no Tinkercad
 
-https://www.tinkercad.com/things/10tCTAiUA2H
+https://www.tinkercad.com/things/1XrqkoqBrCH
 
 ## Experimentar e pesquisar:
 
-- Escreva no monitor serial o conteúdo da variável tempo.
-	- Use o comando "Serial.println(<NOME_IDENTIFICADOR>);"  no código fonte para exibir o valor da variável no monitor serial.
-- O resultado de mover o LED verde para o circuito do LED vermelho.
-- O resultado de inserir outro LED no circuito do LED vermelho.
-- O resultado da alteração do valor da variável tempo para 500 e 100.
-- O resultado de mover o jumper do pino digital 13 para o pino digital 12.
-- Se o resultado de mover o jumper do pino digital 13 ("digitalWrite(LED_BUILTIN, LOW);") para o pino digital 12 ("delay(tempo);") não acender nenhum LED, que alteração no código fonte resolve o problema.
+- Altere a sensibilidade do fotoresistor modificando o valor 750 na linha 17. Experimente valores como
+600 ou 900. Lembrando que esse valor pode ser entre 0 e 1023.
+- Altere o programa para fazer o inverso, muita luz liga o LED e pouca luz desliga o LED.
+- Faça uma alteração para adicionar um segundo LED ao esquema. Onde somente o primeiro LED deve
+ser ligado na falta de luz e o somente o segundo LED deve ser ligado na falta de luz.
+- Monitore no monitor serial o valor da luminosidade.
