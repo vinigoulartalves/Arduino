@@ -1,4 +1,4 @@
-# Projeto Arduíno para manipular 2 LEDs com um sensor de luminosidade
+# Projeto Arduíno para manipular um sensor de luminosidade
 
 ## Contextualização
 
