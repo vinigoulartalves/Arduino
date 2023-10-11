@@ -17,7 +17,7 @@ Neste experimento fiz com que o dois LEDs incorporados acendam separadamente de 
 
 ## Esquema do projeto
 
-![Esquema do projeto](esquema_projeto.PNG)
+![Esquema do projeto](esquema_projeto.JPG)
 
 ## Projeto no Tinkercad
 
