@@ -2,7 +2,7 @@
 
 ## Contextualização
 
-Neste experimento faremos com que o LED incorporado e dois LEDs acendam separadamente de acordo com o sensor de presença. 
+Neste experimento fiz com que o dois LEDs incorporados acendam separadamente de acordo com o sensor de presença. 
 
 ## Lista de componentes:
 
@@ -17,7 +17,7 @@ Neste experimento faremos com que o LED incorporado e dois LEDs acendam separada
 
 ## Esquema do projeto
 
-![Esquema do projeto](esquema_projeto.jpg)
+![Esquema do projeto](Arduino_sensor_de_luminosidade_com_dois_leds.PNG)
 
 ## Projeto no Tinkercad
 
