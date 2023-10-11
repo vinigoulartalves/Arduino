@@ -17,7 +17,7 @@ Neste experimento fiz com que o dois LEDs incorporados acendam separadamente de 
 
 ## Esquema do projeto
 
-![Esquema do projeto](Arduino_sensor_de_luminosidade_com_dois_leds.PNG)
+![Esquema do projeto](esquema_projeto.PNG)
 
 ## Projeto no Tinkercad
 
